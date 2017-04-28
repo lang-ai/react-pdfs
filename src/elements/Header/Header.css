@@ -1,0 +1,32 @@
+.Header {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.Header-logo {
+  padding-left: 40px;
+  float: left;
+}
+
+.Header-logo img {
+  width: 250px;
+}
+
+.Header-right {
+  float: right;
+  padding-right: 40px;
+}
+
+.Header-title {
+  float: right;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.Header-date {
+  float: right;
+  clear: right;
+  font-size: 14px;
+  color: #607d8b;
+}

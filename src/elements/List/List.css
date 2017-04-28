@@ -1,0 +1,60 @@
+.List {
+  width: calc(100% - 80px);
+  padding: 0 40px;
+  color: #333;
+  margin-top: 80px;
+}
+
+.List-content {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.List-content th {
+  text-align: left;
+  padding: 0 10px 5px 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.List-content td {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.List-content tbody tr {
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.List-content th.List-number {
+  text-align: right;
+}
+
+.List-number {
+  text-align: right;
+}
+
+.List-totals {
+  float: right;
+  width: 220px;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.List-totals tr {
+  border-bottom: 1px solid #b7b7b7;
+}
+
+.List-totals td {
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.List-totals td:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}

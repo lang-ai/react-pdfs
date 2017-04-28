@@ -1,11 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const createPDF = require('../server/createPDF');
 
-import Invoice from './Invoice';
-
-const data = {
+createPDF({
   date: new Date().toISOString(),
-  number: 3853,
+  number: 32149,
   recipient: {
     displayName: 'John White',
     addressLine: 'CEO at Carddesign.con\nLondon, United Kingdom',
@@ -32,9 +29,9 @@ const data = {
     },
   ],
   tax: 0.23,
-};
-
-ReactDOM.render(
-  <Invoice data={data} />,
-  document.getElementById('root')
-);
+})
+  .then(out => console.log(out))
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });

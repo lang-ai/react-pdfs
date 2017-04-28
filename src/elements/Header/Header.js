@@ -6,12 +6,12 @@ import './Header.css';
 
 function Header({ date, number }) {
   return (
-    <div className="Header">
+    <div className="Header clearfix">
       <div className="Header-logo">
         <img src={logoSrc} alt="Logo" />
       </div>
 
-      <div className="Header-right">
+      <div className="Header-right clearfix">
         <div className="Header-title">
           Invoice #{number}
         </div>
