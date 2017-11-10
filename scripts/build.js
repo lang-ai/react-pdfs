@@ -69,9 +69,9 @@ function build(previousFileSizes) {
     console.log(chalk.green('Compiled successfully.'));
     console.log();
 
-    // "homepage": "http://mywebsite.com/project"
-    console.log('The ' + chalk.cyan('./libs') + ' folder is compiled and ready.');
-    console.log('You can now run the ' + chalk.green('createPDF') + ' function to generate the final PDF.');
+    console.log('The ' + chalk.cyan('./lib') + ' folder is compiled and ready.');
+    console.log('You can now run the "createPDF" function to generate the final PDF.');
+    console.log('Generate the example by running ' + chalk.green('node example/invoice.js'));
     console.log();
   });
 }
