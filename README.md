@@ -1,8 +1,7 @@
 # Generating PDFs with React
+This is an example project you can use to generate PDFs with React. Start by checking the related talk slides [here](http://bit.ly/react-emails-pdf).
 
-> This is an example project you can use to generate PDFs with React.
-> Start by checking the related talk slides [here](http://bit.ly/react-emails-pdf).
-
+>  If you want to generate emails using React, check the [react-emails](https://github.com/lang-ai/react-emails) repo.
 
 ### Example
 
