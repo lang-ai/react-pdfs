@@ -16,9 +16,7 @@ $ npm run build
 $ node example/invoice.js
 ```
 
-
-
-The result html will be saved in the `/build/` directory. Here is how it looks like:
+The result PDF will be saved in the `/build/` directory. Here is how it looks like:
 
 ![PDF Preview](https://s3-eu-west-1.amazonaws.com/langai-public/github/invoice.png)
 
