@@ -61,7 +61,7 @@ createPDF(data)
 
 **Built with ❤️ by Lang.ai**
 
- [langai]: https://lang.ai/
+ [langai]: https://building.lang.ai/
  [react-create-app]: https://github.com/facebookincubator/create-react-app
  [react-create-app-guide]: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md
 
