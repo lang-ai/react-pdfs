@@ -72,10 +72,10 @@ function generatePDF(htmlPath) {
  */
 function createPDF(data) {
   return Promise.all([
-    getFile('./template.html'),
     getFile(`../lib/${assets['main.css']}`),
+    getFile('./template.html'),
   ])
-    .then(([template, css]) => {
+    .then(([css, template]) => {
       // Render the app
       const element = React.createElement(Main, { data });
       const content = ReactDOMServer.renderToStaticMarkup(element);
@@ -92,4 +92,3 @@ function createPDF(data) {
 }
 
 module.exports = createPDF;
-
